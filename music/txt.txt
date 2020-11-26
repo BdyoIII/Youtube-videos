@@ -1,0 +1,71 @@
+{ name: '``', value: "", inLine:true },
+
+
+// save #1
+const commando = require('discord.js-commando');
+module.exports = class Command extends commando.Command {
+    constructor(client) {
+        super(client, {
+            name: '',
+            group: '',
+            memberName: '',
+            description: '',
+            userPermissions: [
+                ''
+            ],
+            clientPermissions: [
+                ''
+            ],
+            argsType: 'multiple',
+            guildOnly: true, 
+            throttling: {
+                usages: 4,
+                duration: 10,
+            },
+        })
+    }
+    async run ( message, args ) {
+        
+    }
+}
+
+
+throttling: {
+                usages: ,
+                duration: ,
+            },
+
+// save #2 
+if (message.channel.type === 'dm') {
+            return
+		}else {	
+            if (message.author.bot) return;
+
+        }
+
+
+
+ // save #3 
+
+  if (message.author.bot) return;
+ 
+  if (message.channel.type === 'dm') {
+            return
+} 
+
+if(!message.guild) return
+
+// save #4 
+
+nodemon help: {  nodemon ./path.to/"enter file here" } // you need the space from .to/ and ""
+
+// save #5 
+
+message.author.send() 
+		message.react('');
+
+if (!message.channel.nsfw || !message.channel.name.toLowerCase() == "nsfw") return message.reply("This channel must be NSFW").then(msg => call.bot.deleteMyMessage(msg, 12000))
+
+///
+Against popular belief "does not work" is not sufficient information to provide to receive help.
+What's the expected (wanted) behaviour, what's the actual (unwanted) behaviour? Do you get any errors? What's your relevant code that might be causing the issue?

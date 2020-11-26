@@ -1,0 +1,19 @@
+{
+  "name": "ep-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "init": "^0.1.2",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
