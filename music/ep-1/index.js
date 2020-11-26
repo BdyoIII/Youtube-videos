@@ -11,17 +11,22 @@ const client = new CommandoClient({
     invite: "https://discord.gg/NbqBQbaejS"
 })
 
+//! Music Queue
+
+client.queue = new Map()
+
 client.registry
     .registerDefaultTypes()
 
     .registerGroups([
         ['misc', 'misc commands.'],
+        ['music', 'muisc commands.']
     ])
     
     .registerDefaultGroups([
     ])
     .registerDefaultCommands({
-        help: true, 
+        help: false, 
         ping: false,
         eval: false,
         unknownCommand: false, //! Use this if you dont want the bot replying to all "incorrect" command usages.

@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.5.1",
     "discord.js-commando": "github:discordjs/Commando",
     "init": "^0.1.2",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "yt-search": "^2.5.0",
+    "ytdl-core": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
