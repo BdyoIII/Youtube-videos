@@ -21,10 +21,10 @@ module.exports = class Command extends commando.Command {
         .setTitle('Commands')
         .setTimestamp()
         .setDescription('For more info about bot develpment join my support server!')
-        .addField('Server', '[Click me to join us!](https://discord.gg/NbqBQbaejS)', false)
-        .addField("ping", `Tells the bots ping!`)
+        .addField('`Server`', '[Click me to join us!](https://discord.gg/NbqBQbaejS)', false)
+        .addField("`ping`", `Tells the bots ping!`)
         .addField("`play`", `Plays music.`)
-        .addField("More comming soon!", `What he said!`)
+        .addField("More comming soon!", `Testing One two three!`)
   
         .setFooter('Im still in develpment and only have a few commands.')
         .setAuthor('Music Tutorial Bot Coded by ThatGuyJamal#2695')

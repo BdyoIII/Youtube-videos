@@ -1,0 +1,3 @@
+npm i @discordjs/opus
+npm i ytdl-core
+npm i yt-search
