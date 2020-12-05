@@ -38,6 +38,6 @@ client.registry
         client.user.setActivity('with YouTube Music!');
     });
     
-    client.on('error', console.error);
+client.on('error', console.error);
 
 client.login(config.token)
