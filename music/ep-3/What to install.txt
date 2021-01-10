@@ -1,0 +1,6 @@
+npm i @discordjs/opus
+npm i ytdl-core
+npm i yt-search
+npm i opusscript
+
+npm install ytdl-core@latest
